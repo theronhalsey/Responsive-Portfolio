@@ -237,3 +237,96 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  .main-section {
+      float: left;
+      width: 60%;
+      max-width: 450px;
+      padding: 30px;
+      margin: 0 0 40px;
+      background: #fff;
+      border: 1px solid #ddd;}
+  
+  .auth-image {
+    width: 390px;
+    float: none;}
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 100%;
+    max-width: 768px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;}
+  
+  .auth-image {
+    width: 200px;
+    float: left;}
+
+  .sidebar {
+    clear: all;
+    float: none;
+    width: 100%;
+    max-width: 768px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;}
+}
+
+@media screen and (max-width: 640px) {
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    margin: 0 0 0px;
+    background: #fff;
+    border: 1px solid #ddd;}
+  
+  nav {
+    justify-content: center;
+    width: 100%;
+      float: none;
+      margin-top: 25px;}
+
+  nav a {
+      clear: all;
+      justify-content: center;
+        display: inline-block;
+        padding-left: 15px;
+        margin-left: 15px;
+        line-height: 18px;
+        color: #999;
+        text-decoration: none;
+        border-left: 1px solid #efefef;
+      }
+  
+  #logo {
+      clear: all;
+        width: 100%;
+        height: 90px;
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 90px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        background: #4aaaa5;
+      }
+      .sidebar {
+        float: none;
+        width: 100%;
+        max-width: 450px;
+        padding: 30px;
+        margin-bottom: 20px;
+        background: #fff;
+        border: 1px solid #ddd;}
+}
