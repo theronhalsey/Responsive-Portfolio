@@ -257,13 +257,20 @@ input[type=submit] {
   .main-section {
     margin-left: auto;
     margin-right: auto;
-    float: none;
+    float: left;
     width: 100%;
     max-width: 768px;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;}
+    
+  #main-container {
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 120px;
+      padding-bottom: 30px;}
   
   .auth-image {
     width: 200px;
@@ -271,7 +278,7 @@ input[type=submit] {
 
   .sidebar {
     clear: all;
-    float: none;
+    float: left;
     width: 100%;
     max-width: 768px;
     padding: 30px;
@@ -282,17 +289,30 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
   .main-section {
+    margin-left: auto;
+    margin-right: auto;
     float: left;
     width: 100%;
-    max-width: 450px;
-    padding: 30px;
+    max-width: 620px;
     margin: 0 0 0px;
     background: #fff;
     border: 1px solid #ddd;}
+
+    #main-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 175px;
+    padding-bottom: 30px;}
+
+    .auth-image {
+      width: 480px;
+      float: none;
+    clear: all;}
   
   nav {
     justify-content: center;
     width: 100%;
+    text-align: center;
       float: none;
       margin-top: 25px;}
 
@@ -322,10 +342,11 @@ input[type=submit] {
         background: #4aaaa5;
       }
       .sidebar {
-        float: none;
+        float: left;
         width: 100%;
-        max-width: 450px;
-        padding: 30px;
+        max-width: 640px;
+        padding-top: 30px;
+        margin-top: 30px;
         margin-bottom: 20px;
         background: #fff;
         border: 1px solid #ddd;}
